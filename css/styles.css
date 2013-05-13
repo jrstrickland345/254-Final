@@ -1,0 +1,67 @@
+/* Basic */
+
+h1{
+	font-family: "SourceSansProBlack";
+	font-size: 4em;
+	line-height: 60px;
+}
+
+h1.styleGuideHeads{
+	color: #ca0000;
+	
+}
+
+h2{
+	font-family: "SourceSansProSemibold";
+	font-size: 2em;
+}
+
+p{
+	font-family: "CrimsonSemibold";
+	font-size: 1.4em;
+	
+}
+
+a.subhead:link, a.subhead:visited{
+	color: #ca0000;
+	font-family: "SourceSansProBold";
+	font-size: 1.3em;
+}
+
+a.subhead:hover{
+	color: #0005cf;
+}
+
+a:link, a:visited{
+	color: #ca0000;
+	font-family: "CrimsonSemibold";
+}
+
+a:hover{
+	color: #0005cf;
+}
+
+/* Top Menu */
+
+nav{
+	
+	background: -webkit-linear-gradient(rgba(255,255,255,0.5), rgba(0,0,0,0.5)), black url(../img/Link_Texture.gif) ;
+	background: -moz-linear-gradient(rgba(255,255,255,0.5), rgba(0,0,0,0.5)), black url(../img/Link_Texture.gif) ;
+	background: linear-gradient(rgba(255,255,255,0.5), rgba(0,0,0,0.5)), black url(../img/Link_Texture.gif) ;
+	color: white;
+	font-family: "SourceSansProSemiBold";
+	font-size: 1.8em;
+	width: 100%;
+	
+}
+
+nav li{
+	display: inline-block;
+	border-right: 1px solid #8a8a8a; 
+	padding: 20px;
+	cursor: pointer;
+}
+
+nav li:last-child{
+	border-right: none;
+}
