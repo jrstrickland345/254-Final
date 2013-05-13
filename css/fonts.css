@@ -1,0 +1,813 @@
+/*=============================================================
+Basic Icons Font
+===============================================================*/
+
+@font-face {
+	font-family: 'Basic-Icons';
+	src:url('../fonts/Basic-Icons.eot');
+	src:url('../fonts/Basic-Icons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Basic-Icons.woff') format('woff'),
+		url('../fonts/Basic-Icons.ttf') format('truetype'),
+		url('../fonts/Basic-Icons.svg#Basic-Icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'Basic-Icons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-arrow-up-left, .icon-arrow-up, .icon-arrow-up-right, .icon-arrow-right, .icon-arrow-down-right, .icon-arrow-down, .icon-arrow-down-left, .icon-arrow-left, .icon-redo, .icon-undo, .icon-redo-2, .icon-forward, .icon-reply, .icon-spinner, .icon-contract, .icon-expand, .icon-contract-2, .icon-expand-2, .icon-loop, .icon-shuffle, .icon-point-up, .icon-point-right, .icon-point-down, .icon-point-left, .icon-home, .icon-pencil, .icon-image, .icon-music, .icon-camera, .icon-play, .icon-camera-2, .icon-tag, .icon-cart, .icon-phone, .icon-location, .icon-pushpin, .icon-print, .icon-calendar, .icon-download, .icon-upload, .icon-undo-2, .icon-bubble, .icon-bubbles, .icon-user, .icon-users, .icon-search, .icon-zoom-in, .icon-zoom-out, .icon-cog, .icon-earth, .icon-link, .icon-flag, .icon-attachment, .icon-bookmark, .icon-heart, .icon-thumbs-up, .icon-thumbs-up-2, .icon-star, .icon-smiley, .icon-sad, .icon-blocked, .icon-close, .icon-checkmark, .icon-minus, .icon-plus, .icon-play-2, .icon-pause, .icon-stop, .icon-backward, .icon-forward-2, .icon-first, .icon-last, .icon-previous, .icon-next, .icon-eject, .icon-volume-high, .icon-volume-low, .icon-volume-mute, .icon-html5, .icon-css3, .icon-chrome, .icon-firefox, .icon-IE, .icon-opera, .icon-safari, .icon-file-pdf, .icon-file-word, .icon-file-zip, .icon-file-powerpoint, .icon-paypal, .icon-folder-close, .icon-folder-open, .icon-plus-sign, .icon-minus-sign, .icon-remove-sign, .icon-ok-sign, .icon-question-sign, .icon-info-sign, .icon-exclamation-sign, .icon-envelope-alt, .icon-quote-left, .icon-quote-right, .icon-remove, .icon-target, .icon-switch, .icon-bars, .icon-stats, .icon-pie {
+	font-family: 'Basic-Icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-arrow-up-left:before {
+	content: "\31";
+}
+.icon-arrow-up:before {
+	content: "\32";
+}
+.icon-arrow-up-right:before {
+	content: "\33";
+}
+.icon-arrow-right:before {
+	content: "\34";
+}
+.icon-arrow-down-right:before {
+	content: "\35";
+}
+.icon-arrow-down:before {
+	content: "\36";
+}
+.icon-arrow-down-left:before {
+	content: "\37";
+}
+.icon-arrow-left:before {
+	content: "\38";
+}
+.icon-redo:before {
+	content: "\a1";
+}
+.icon-undo:before {
+	content: "\2122";
+}
+.icon-redo-2:before {
+	content: "\a3";
+}
+.icon-forward:before {
+	content: "\a2";
+}
+.icon-reply:before {
+	content: "\221e";
+}
+.icon-spinner:before {
+	content: "\a7";
+}
+.icon-contract:before {
+	content: "\b6";
+}
+.icon-expand:before {
+	content: "\2022";
+}
+.icon-contract-2:before {
+	content: "\aa";
+}
+.icon-expand-2:before {
+	content: "\ba";
+}
+.icon-loop:before {
+	content: "\39";
+}
+.icon-shuffle:before {
+	content: "\30";
+}
+.icon-point-up:before {
+	content: "\2026";
+}
+.icon-point-right:before {
+	content: "\e6";
+}
+.icon-point-down:before {
+	content: "\2265";
+}
+.icon-point-left:before {
+	content: "\f7";
+}
+.icon-home:before {
+	content: "\68";
+}
+.icon-pencil:before {
+	content: "\65";
+}
+.icon-image:before {
+	content: "\69";
+}
+.icon-music:before {
+	content: "\41";
+}
+.icon-camera:before {
+	content: "\49";
+}
+.icon-play:before {
+	content: "\56";
+}
+.icon-camera-2:before {
+	content: "\76";
+}
+.icon-tag:before {
+	content: "\53";
+}
+.icon-cart:before {
+	content: "\73";
+}
+.icon-phone:before {
+	content: "\40";
+}
+.icon-location:before {
+	content: "\2e";
+}
+.icon-pushpin:before {
+	content: "\54";
+}
+.icon-print:before {
+	content: "\70";
+}
+.icon-calendar:before {
+	content: "\63";
+}
+.icon-download:before {
+	content: "\44";
+}
+.icon-upload:before {
+	content: "\55";
+}
+.icon-undo-2:before {
+	content: "\75";
+}
+.icon-bubble:before {
+	content: "\71";
+}
+.icon-bubbles:before {
+	content: "\51";
+}
+.icon-user:before {
+	content: "\79";
+}
+.icon-users:before {
+	content: "\59";
+}
+.icon-search:before {
+	content: "\4d";
+}
+.icon-zoom-in:before {
+	content: "\7b";
+}
+.icon-zoom-out:before {
+	content: "\7d";
+}
+.icon-cog:before {
+	content: "\43";
+}
+.icon-earth:before {
+	content: "\57";
+}
+.icon-link:before {
+	content: "\6c";
+}
+.icon-flag:before {
+	content: "\66";
+}
+.icon-attachment:before {
+	content: "\3c0";
+}
+.icon-bookmark:before {
+	content: "\62";
+}
+.icon-heart:before {
+	content: "\4c";
+}
+.icon-thumbs-up:before {
+	content: "\2260";
+}
+.icon-thumbs-up-2:before {
+	content: "\2013";
+}
+.icon-star:before {
+	content: "\2a";
+}
+.icon-smiley:before {
+	content: "\48";
+}
+.icon-sad:before {
+	content: "\2d9";
+}
+.icon-blocked:before {
+	content: "\6e";
+}
+.icon-close:before {
+	content: "\78";
+}
+.icon-checkmark:before {
+	content: "\58";
+}
+.icon-minus:before {
+	content: "\2d";
+}
+.icon-plus:before {
+	content: "\3d";
+}
+.icon-play-2:before {
+	content: "\b8";
+}
+.icon-pause:before {
+	content: "\2db";
+}
+.icon-stop:before {
+	content: "\c7";
+}
+.icon-backward:before {
+	content: "\25ca";
+}
+.icon-forward-2:before {
+	content: "\131";
+}
+.icon-first:before {
+	content: "\2dc";
+}
+.icon-last:before {
+	content: "\c2";
+}
+.icon-previous:before {
+	content: "\af";
+}
+.icon-next:before {
+	content: "\2d8";
+}
+.icon-eject:before {
+	content: "\6a";
+}
+.icon-volume-high:before {
+	content: "\5b";
+}
+.icon-volume-low:before {
+	content: "\5d";
+}
+.icon-volume-mute:before {
+	content: "\5c";
+}
+.icon-html5:before {
+	content: "\25";
+}
+.icon-css3:before {
+	content: "\23";
+}
+.icon-chrome:before {
+	content: "\e7";
+}
+.icon-firefox:before {
+	content: "\192";
+}
+.icon-IE:before {
+	content: "\b4";
+}
+.icon-opera:before {
+	content: "\f8";
+}
+.icon-safari:before {
+	content: "\df";
+}
+.icon-file-pdf:before {
+	content: "\61";
+}
+.icon-file-word:before {
+	content: "\77";
+}
+.icon-file-zip:before {
+	content: "\7a";
+}
+.icon-file-powerpoint:before {
+	content: "\64";
+}
+.icon-paypal:before {
+	content: "\50";
+}
+.icon-folder-close:before {
+	content: "\46";
+}
+.icon-folder-open:before {
+	content: "\4f";
+}
+.icon-plus-sign:before {
+	content: "\2b";
+}
+.icon-minus-sign:before {
+	content: "\5f";
+}
+.icon-remove-sign:before {
+	content: "\2248";
+}
+.icon-ok-sign:before {
+	content: "\221a";
+}
+.icon-question-sign:before {
+	content: "\3f";
+}
+.icon-info-sign:before {
+	content: "\2c6";
+}
+.icon-exclamation-sign:before {
+	content: "\21";
+}
+.icon-envelope-alt:before {
+	content: "\6d";
+}
+.icon-quote-left:before {
+	content: "\27";
+}
+.icon-quote-right:before {
+	content: "\22";
+}
+.icon-remove:before {
+	content: "\74";
+}
+.icon-target:before {
+	content: "\6b";
+}
+.icon-switch:before {
+	content: "\6f";
+}
+.icon-bars:before {
+	content: "\67";
+}
+.icon-stats:before {
+	content: "\47";
+}
+.icon-pie:before {
+	content: "\a9";
+}
+
+/*=============================================================
+Social Icons Font
+===============================================================*/
+
+@font-face {
+	font-family: 'Social-Icons';
+	src:url('../fonts/Social-Icons.eot');
+	src:url('../fonts/Social-Icons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Social-Icons.woff') format('woff'),
+		url('../fonts/Social-Icons.ttf') format('truetype'),
+		url('../fonts/Social-Icons.svg#Social-Icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'Social-Icons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-html5, .icon-css3, .icon-chrome, .icon-firefox, .icon-IE, .icon-opera, .icon-safari, .icon-paypal, .icon-google, .icon-google-plus, .icon-google-plus-2, .icon-google-plus-3, .icon-google-plus-4, .icon-google-drive, .icon-facebook, .icon-facebook-2, .icon-facebook-3, .icon-twitter, .icon-twitter-2, .icon-twitter-3, .icon-feed, .icon-feed-2, .icon-feed-3, .icon-youtube, .icon-youtube-2, .icon-vimeo, .icon-vimeo2, .icon-vimeo-2, .icon-flickr, .icon-flickr-2, .icon-flickr-3, .icon-flickr-4, .icon-picassa, .icon-picassa-2, .icon-github, .icon-github-2, .icon-github-3, .icon-github-4, .icon-wordpress, .icon-wordpress-2, .icon-blogger, .icon-blogger-2, .icon-tumblr, .icon-tumblr-2, .icon-yahoo, .icon-apple, .icon-finder, .icon-android, .icon-windows, .icon-windows8, .icon-skype, .icon-linkedin, .icon-pinterest, .icon-pinterest-2, .icon-paypal-2, .icon-paypal-3, .icon-html5-2 {
+	font-family: 'Social-Icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-html5:before {
+	content: "\35";
+}
+.icon-css3:before {
+	content: "\33";
+}
+.icon-chrome:before {
+	content: "\63";
+}
+.icon-firefox:before {
+	content: "\58";
+}
+.icon-IE:before {
+	content: "\78";
+}
+.icon-opera:before {
+	content: "\6f";
+}
+.icon-safari:before {
+	content: "\53";
+}
+.icon-paypal:before {
+	content: "\70";
+}
+.icon-google:before {
+	content: "\2dd";
+}
+.icon-google-plus:before {
+	content: "\67";
+}
+.icon-google-plus-2:before {
+	content: "\3d";
+}
+.icon-google-plus-3:before {
+	content: "\47";
+}
+.icon-google-plus-4:before {
+	content: "\a9";
+}
+.icon-google-drive:before {
+	content: "\64";
+}
+.icon-facebook:before {
+	content: "\66";
+}
+.icon-facebook-2:before {
+	content: "\46";
+}
+.icon-facebook-3:before {
+	content: "\192";
+}
+.icon-twitter:before {
+	content: "\74";
+}
+.icon-twitter-2:before {
+	content: "\54";
+}
+.icon-twitter-3:before {
+	content: "\2020";
+}
+.icon-feed:before {
+	content: "\72";
+}
+.icon-feed-2:before {
+	content: "\52";
+}
+.icon-feed-3:before {
+	content: "\ae";
+}
+.icon-youtube:before {
+	content: "\59";
+}
+.icon-youtube-2:before {
+	content: "\a5";
+}
+.icon-vimeo:before {
+	content: "\76";
+}
+.icon-vimeo2:before {
+	content: "\56";
+}
+.icon-vimeo-2:before {
+	content: "\221a";
+}
+.icon-flickr:before {
+	content: "\f8ff";
+}
+.icon-flickr-2:before {
+	content: "\6b";
+}
+.icon-flickr-3:before {
+	content: "\4b";
+}
+.icon-flickr-4:before {
+	content: "\2da";
+}
+.icon-picassa:before {
+	content: "\e5";
+}
+.icon-picassa-2:before {
+	content: "\c5";
+}
+.icon-github:before {
+	content: "\43";
+}
+.icon-github-2:before {
+	content: "\2c6";
+}
+.icon-github-3:before {
+	content: "\69";
+}
+.icon-github-4:before {
+	content: "\49";
+}
+.icon-wordpress:before {
+	content: "\77";
+}
+.icon-wordpress-2:before {
+	content: "\57";
+}
+.icon-blogger:before {
+	content: "\62";
+}
+.icon-blogger-2:before {
+	content: "\42";
+}
+.icon-tumblr:before {
+	content: "\65";
+}
+.icon-tumblr-2:before {
+	content: "\45";
+}
+.icon-yahoo:before {
+	content: "\79";
+}
+.icon-apple:before {
+	content: "\61";
+}
+.icon-finder:before {
+	content: "\6d";
+}
+.icon-android:before {
+	content: "\41";
+}
+.icon-windows:before {
+	content: "\37";
+}
+.icon-windows8:before {
+	content: "\38";
+}
+.icon-skype:before {
+	content: "\73";
+}
+.icon-linkedin:before {
+	content: "\6e";
+}
+.icon-pinterest:before {
+	content: "\2dc";
+}
+.icon-pinterest-2:before {
+	content: "\4e";
+}
+.icon-paypal-2:before {
+	content: "\50";
+}
+.icon-paypal-3:before {
+	content: "\3c0";
+}
+.icon-html5-2:before {
+	content: "\25";
+}
+
+
+/*=============================================================
+Crimson Serif Font
+===============================================================*/
+
+
+
+@font-face {
+    font-family: 'CrimsonRoman';
+    src: url('../fonts/Crimson-Roman-webfont.eot');
+    src: url('../fonts/Crimson-Roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Crimson-Roman-webfont.woff') format('woff'),
+         url('../fonts/Crimson-Roman-webfont.ttf') format('truetype'),
+         url('../fonts/Crimson-Roman-webfont.svg#CrimsonRoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CrimsonBold';
+    src: url('../fonts/Crimson-Bold-webfont.eot');
+    src: url('../fonts/Crimson-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Crimson-Bold-webfont.woff') format('woff'),
+         url('../fonts/Crimson-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Crimson-Bold-webfont.svg#CrimsonBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CrimsonBoldItalic';
+    src: url('../fonts/Crimson-BoldItalic-webfont.eot');
+    src: url('../fonts/Crimson-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Crimson-BoldItalic-webfont.woff') format('woff'),
+         url('../fonts/Crimson-BoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/Crimson-BoldItalic-webfont.svg#CrimsonBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CrimsonItalic';
+    src: url('../fonts/Crimson-Italic-webfont.eot');
+    src: url('../fonts/Crimson-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Crimson-Italic-webfont.woff') format('woff'),
+         url('../fonts/Crimson-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/Crimson-Italic-webfont.svg#CrimsonItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CrimsonSemibold';
+    src: url('../fonts/Crimson-Semibold-webfont.eot');
+    src: url('../fonts/Crimson-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Crimson-Semibold-webfont.woff') format('woff'),
+         url('../fonts/Crimson-Semibold-webfont.ttf') format('truetype'),
+         url('../fonts/Crimson-Semibold-webfont.svg#CrimsonSemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CrimsonSemiboldItalic';
+    src: url('../fonts/Crimson-SemiboldItalic-webfont.eot');
+    src: url('../fonts/Crimson-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Crimson-SemiboldItalic-webfont.woff') format('woff'),
+         url('../fonts/Crimson-SemiboldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/Crimson-SemiboldItalic-webfont.svg#CrimsonSemiboldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*=============================================================
+Source Sans Pro Sans-Serif Font
+===============================================================*/
+
+@font-face {
+    font-family: 'SourceSansProExtraLight';
+    src: url('../fonts/SourceSansPro-ExtraLight-webfont.eot');
+    src: url('../fonts/SourceSansPro-ExtraLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-ExtraLight-webfont.woff') format('woff'),
+         url('../fonts/SourceSansPro-ExtraLight-webfont.ttf') format('truetype'),
+         url('../fonts/SourceSansPro-ExtraLight-webfont.svg#SourceSansProExtraLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SourceSansProExtraLightItalic';
+    src: url('../fonts/SourceSansPro-ExtraLightIt-webfont.eot');
+    src: url('../fonts/SourceSansPro-ExtraLightIt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-ExtraLightIt-webfont.woff') format('woff'),
+         url('../fonts/SourceSansPro-ExtraLightIt-webfont.ttf') format('truetype'),
+         url('../fonts/SourceSansPro-ExtraLightIt-webfont.svg#SourceSansProExtraLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SourceSansProLight';
+    src: url('../fonts/SourceSansPro-Light-webfont.eot');
+    src: url('../fonts/SourceSansPro-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-Light-webfont.woff') format('woff'),
+         url('../fonts/SourceSansPro-Light-webfont.ttf') format('truetype'),
+         url('../fonts/SourceSansPro-Light-webfont.svg#SourceSansProLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SourceSansProLightItalic';
+    src: url('../fonts/SourceSansPro-LightIt-webfont.eot');
+    src: url('../fonts/SourceSansPro-LightIt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-LightIt-webfont.woff') format('woff'),
+         url('../fonts/SourceSansPro-LightIt-webfont.ttf') format('truetype'),
+         url('../fonts/SourceSansPro-LightIt-webfont.svg#SourceSansProLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SourceSansProRegular';
+    src: url('../fonts/SourceSansPro-Regular-webfont.eot');
+    src: url('../fonts/SourceSansPro-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-Regular-webfont.woff') format('woff'),
+         url('../fonts/SourceSansPro-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/SourceSansPro-Regular-webfont.svg#SourceSansProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SourceSansProItalic';
+    src: url('../fonts/SourceSansPro-It-webfont.eot');
+    src: url('../fonts/SourceSansPro-It-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-It-webfont.woff') format('woff'),
+         url('../fonts/SourceSansPro-It-webfont.ttf') format('truetype'),
+         url('../fonts/SourceSansPro-It-webfont.svg#SourceSansProItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SourceSansProSemibold';
+    src: url('../fonts/SourceSansPro-Semibold-webfont.eot');
+    src: url('../fonts/SourceSansPro-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-Semibold-webfont.woff') format('woff'),
+         url('../fonts/SourceSansPro-Semibold-webfont.ttf') format('truetype'),
+         url('../fonts/SourceSansPro-Semibold-webfont.svg#SourceSansProSemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SourceSansProSemiboldItalic';
+    src: url('../fonts/SourceSansPro-SemiboldIt-webfont.eot');
+    src: url('../fonts/SourceSansPro-SemiboldIt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-SemiboldIt-webfont.woff') format('woff'),
+         url('../fonts/SourceSansPro-SemiboldIt-webfont.ttf') format('truetype'),
+         url('../fonts/SourceSansPro-SemiboldIt-webfont.svg#SourceSansProSemiboldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SourceSansProBold';
+    src: url('../fonts/SourceSansPro-Bold-webfont.eot');
+    src: url('../fonts/SourceSansPro-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-Bold-webfont.woff') format('woff'),
+         url('../fonts/SourceSansPro-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/SourceSansPro-Bold-webfont.svg#SourceSansProBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SourceSansProBoldItalic';
+    src: url('../fonts/SourceSansPro-BoldIt-webfont.eot');
+    src: url('../fonts/SourceSansPro-BoldIt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-BoldIt-webfont.woff') format('woff'),
+         url('../fonts/SourceSansPro-BoldIt-webfont.ttf') format('truetype'),
+         url('../fonts/SourceSansPro-BoldIt-webfont.svg#SourceSansProBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SourceSansProBlack';
+    src: url('../fonts/SourceSansPro-Black-webfont.eot');
+    src: url('../fonts/SourceSansPro-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-Black-webfont.woff') format('woff'),
+         url('../fonts/SourceSansPro-Black-webfont.ttf') format('truetype'),
+         url('../fonts/SourceSansPro-Black-webfont.svg#SourceSansProBlack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SourceSansProBlackItalic';
+    src: url('../fonts/SourceSansPro-BlackIt-webfont.eot');
+    src: url('../fonts/SourceSansPro-BlackIt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-BlackIt-webfont.woff') format('woff'),
+         url('../fonts/SourceSansPro-BlackIt-webfont.ttf') format('truetype'),
+         url('../fonts/SourceSansPro-BlackIt-webfont.svg#SourceSansProBlackItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
