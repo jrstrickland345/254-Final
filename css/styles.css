@@ -8,6 +8,8 @@ h1{
 
 h1.styleGuideHeads{
 	color: #ca0000;
+	border-bottom: 1px solid black;
+	margin: 30px 0;
 	
 }
 
@@ -45,21 +47,31 @@ a:hover{
 
 nav{
 	
-	background: -webkit-linear-gradient(rgba(255,255,255,0.5), rgba(0,0,0,0.5)), black url(../img/Link_Texture.gif) ;
-	background: -moz-linear-gradient(rgba(255,255,255,0.5), rgba(0,0,0,0.5)), black url(../img/Link_Texture.gif) ;
-	background: linear-gradient(rgba(255,255,255,0.5), rgba(0,0,0,0.5)), black url(../img/Link_Texture.gif) ;
+	background: -webkit-linear-gradient(rgba(255,255,255,0.4), rgba(0,0,0,0.5)), black url(../img/Link_Texture.gif) ;
+	background: -moz-linear-gradient(rgba(255,255,255,0.4), rgba(0,0,0,0.5)), black url(../img/Link_Texture.gif) ;
+	background: linear-gradient(rgba(255,255,255,0.4), rgba(0,0,0,0.5)), black url(../img/Link_Texture.gif) ;
 	color: white;
 	font-family: "SourceSansProSemiBold";
 	font-size: 1.8em;
 	width: 100%;
+	overflow: auto;
 	
 }
 
 nav li{
 	display: inline-block;
+	float: left;
 	border-right: 1px solid #8a8a8a; 
 	padding: 20px;
 	cursor: pointer;
+}
+
+nav li:hover span{
+	border-bottom: 2px solid #ca0000;
+}
+
+nav li:hover{
+	box-shadow: inset 0px 0px 10px black;
 }
 
 nav li:last-child{
