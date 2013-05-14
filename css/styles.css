@@ -77,3 +77,85 @@ nav li:hover{
 nav li:last-child{
 	border-right: none;
 }
+
+button{
+	color: white;
+	font-family: 'SourceSansProBlack';
+	font-size: 2em;
+	border: none;
+}
+
+#redBtn{
+	background: url(../img/Sprite-Map.png) no-repeat -24px -386px;
+	width: 220px;
+	height: 45px;
+}
+
+#blueBtn{
+	background: url(../img/Sprite-Map.png) no-repeat -395px -386px;
+	width: 220px;
+	height: 45px;
+}
+
+#facebookBtn{
+	background: url(../img/Sprite-Map.png) no-repeat -182px -14px;
+	width: 67px;
+	height: 67px;
+}
+
+#twitterBtn{
+	background: url(../img/Sprite-Map.png) no-repeat -283px -14px;
+	width: 67px;
+	height: 67px;
+}
+
+#youTubeBtn{
+	background: url(../img/Sprite-Map.png) no-repeat -384px -14px;
+	width: 67px;
+	height: 67px;
+}
+
+#rssBtn{
+	background: url(../img/Sprite-Map.png) no-repeat -81px -14px;
+	width: 67px;
+	height: 67px;
+}
+
+input[type="submit"]{
+	background: url(../img/Sprite-Map.png) no-repeat -24px -473px;
+	width: 140px;
+	height: 45px;
+	border: none;
+	color: white;
+	font-family: 'SourceSansProBlack';
+	font-size: 2em;
+}
+
+input[type="text"]{
+	width: 300px;
+	height: 40px;
+}
+
+textarea{
+	width: 600px;
+	height: 300px;
+}
+
+input[type="text"], textarea{
+	box-shadow: inset 2px 2px 4px black;
+	font-family: 'SourceSansProSemiBold';
+	font-size: 2em;
+	border-radius: 10px;
+}
+
+input[type="text"]:focus, textarea:focus{
+	border-color: #ca0000;
+	box-shadow: 0px 0px 4px black;  
+	
+}
+
+label{
+	font-family: 'SourceSansProSemiBold';
+	font-size: 2em;
+}
+
