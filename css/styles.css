@@ -1,9 +1,16 @@
+/* Color Guide 
+===============
+
+Red: #ca0000;
+Blue: #0005cf;
+==============*/
+
 /* Basic */
 
 h1{
-	font-family: "SourceSansProBlack";
-	font-size: 4em;
-	line-height: 60px;
+	font-family: "SourceSansProBold";
+	font-size: 2em;
+	line-height: 30px;
 }
 
 h1.styleGuideHeads{
@@ -15,7 +22,7 @@ h1.styleGuideHeads{
 
 h2{
 	font-family: "SourceSansProSemibold";
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 p{
@@ -78,6 +85,13 @@ nav li:last-child{
 	border-right: none;
 }
 
+/* Banner */
+
+#bannerBox{
+	float: right;
+}
+/* Buttons */
+
 button{
 	color: white;
 	font-family: 'SourceSansProBlack';
@@ -121,6 +135,9 @@ button{
 	height: 67px;
 }
 
+
+/* Forms */
+
 input[type="submit"]{
 	background: url(../img/Sprite-Map.png) no-repeat -24px -473px;
 	width: 140px;
@@ -159,3 +176,40 @@ label{
 	font-size: 2em;
 }
 
+/* Carousel */
+
+.carousel-control{
+	background: none;
+	border: none;
+	border-radius: none;
+}
+
+.left{
+	left: -130px;
+}
+
+.left span{
+	font-family: 'Watch-Prototype' !important;
+	font-size: 2em;
+	color: black !important;
+}
+
+.right{
+	right: -60px !important;
+}
+
+.right span{
+	right: -60px !important;
+	font-family: 'Watch-Prototype' !important;
+	font-size: 2em;
+	color: black !important;
+}
+
+#myCarousel{
+	background: #cacaca;
+}
+
+.item img{
+	float: left;
+	width: 400px;
+}

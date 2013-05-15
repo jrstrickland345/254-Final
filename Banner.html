@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<!-- Created with Ai->Canvas Export Plug-In Version 1.1 (Mac)   -->
+<!-- By Mike Swanson (http://blog.mikeswanson.com/)             -->
+
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <title>Banner</title>
+  <script>
+
+    function init() {
+
+      var canvas = document.getElementById("canvas");
+      var ctx = canvas.getContext("2d");
+
+      draw(ctx);
+    }
+
+    function draw(ctx) {
+
+      // layer1/Path
+      ctx.save();
+      ctx.beginPath();
+      ctx.moveTo(0.0, 0.0);
+      ctx.lineTo(0.0, 87.5);
+      ctx.lineTo(0.0, 175.0);
+      ctx.lineTo(38.5, 195.0);
+      ctx.lineTo(77.0, 175.0);
+      ctx.lineTo(115.5, 195.0);
+      ctx.lineTo(154.0, 175.0);
+      ctx.lineTo(154.0, 87.5);
+      ctx.lineTo(154.0, 0.0);
+      ctx.fillStyle = "rgb(201, 0, 0)";
+      ctx.fill();
+      ctx.restore();
+    }
+  </script>
+ </head>
+ <body onload="init()">
+   <canvas id="canvas" width="154" height="195"></canvas>
+ </body>
+</html>
