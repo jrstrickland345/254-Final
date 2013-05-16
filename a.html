@@ -35,7 +35,15 @@
 			<li><span>Mission</span></li>
 			<li><span>Contact</span></li>
 		</ul>
+		
+		
 	</nav>
+	
+	<div id="rssBtn" class="socialMedia"></div>
+		<div id="facebookBtn" class="socialMedia"></div>
+		<div id="twitterBtn" class="socialMedia"></div>
+		<div id="youTubeBtn" class="socialMedia"></div>
+		
 		<div class="container">
 		
 			<div id="myCarousel" class="carousel slide">
@@ -72,14 +80,16 @@
 			</div>
 			
 			<div class="row">
-				<div class="span8">
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-				<a href="#">Link</a>
+				<div class="span8" id="latest">
+				<a href="#">Russia says Iran must take part in proposed Syria talks</a>
+				<a href="#">Pandemic swine flu virus found in seals</a>
+				<a href="#">One million flee as Cyclone Mahasen batters Bangladesh coast</a>
+				<a href="#">'Enough': Senators fight military sex abuse</a>
+			<!-- 	<a href="#">Suspect: Boston bombing was payback for hits on Muslims</a> -->
 				</div>
-				<div class="span4">
+				<div class="span4" id="alerts">
+				<a href="#">6.4 Earth Quake off<br/> Japan Coast</a>
+				<span>1</span>
 				</div>
 			</div>
 			
@@ -114,42 +124,42 @@
 			
 			<div class="sections span2">
 				
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-				<a href="#">Link</a>
+				<a href="#">Jordan slams reported decision to demolish J'lem mosque </a>
+				<a href="#">State seeks approval of four West Bank outposts</a>
+				<a href="#">Yalalon Freezes Plans for New PA City Near Jericho</a>
+				<a href="#">Livni: I won't Let Bennet Decide on Kotel</a>
+				<a href="#">Four Soldiers hurt in Firebomb Attack</a>
 			</div>
 			<div class="sections span2">
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-			</div>
-
-			<div class="sections span2">
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-				<a href="#">Link</a>
+				<a href="#">Scandals prompt comparisons between Nixon, Obama and administrations</a>
+				<a href="#">'Angry' Obama announces IRS leader's ouster after conservatives targeted</a>
+				<a href="#">White House releases Benghazi e-mails</a>
+				<a href="#">White House in damage control mode as potential scandals pile up</a>
+				<a href="#">Obama seeks balance on free press, classified information leaks</a>
 			</div>
 
 			<div class="sections span2">
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-				<a href="#">Link</a>
+				<a href="#">The Interfaith Racket: Passport to Credibility</a>
+				<a href="#">Kermit Gosnell's America: What His Trial Really Reveals</a>
+				<a href="#">7 Things Pastors Should Tell Their People Often</a>
+				<a href="#">In Praise of Paranoia</a>
+				<a href="#">Deja vu: Peace in our time?</a>
 			</div>
 
 			<div class="sections span2">
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-				<a href="#">Link</a>
-				<a href="#">Link</a>
+				<a href="#">The Habit of Recognizing God's Provision</a>
+				<a href="#">The Advantages of Goal Setting</a>
+				<a href="#">Through Faith</a>
+				<a href="#">A.W. Tozer's Daily Devotional</a>
+				<a href="#">Gharles Spurgeon's 'Morning and Evening'</a>
+			</div>
+
+			<div class="sections span2">
+				<a href="#">Abortion doctor convicted of murder waives appeal, avoids death sentence.</a>
+				<a href="#">DC Turns on Obama</a>
+				<a href="#">Man brought back to life after being clinically dead for 40 minutes</a>
+				<a href="#">In talks with Netanyahu, Putin urges restraint on Syria</a>
+				<a href="#">Stunning Byzantine Mosaic Discovered in Israel</a>
 			</div>
 			
 			
@@ -192,7 +202,8 @@
       ctx.restore();
     }
   
-  $('.sections a').append('<br/>');
+  $('.sections a').append('<br/><br/>');
+  $('#latest a').append('<br/><br/>');
 
 	</script>
 </html>
