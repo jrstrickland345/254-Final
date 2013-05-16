@@ -50,6 +50,21 @@ a:hover{
 	color: #0005cf;
 }
 
+/* Header */
+
+header{
+	position: relative;
+}
+
+canvas#banner{
+	position: absolute;
+	z-index: 5;
+}
+
+header img{
+	width: 180px;
+}
+
 /* Top Menu */
 
 nav{
@@ -73,6 +88,10 @@ nav li{
 	cursor: pointer;
 }
 
+nav ul{
+	margin-left: 15%;
+}
+
 nav li:hover span{
 	border-bottom: 2px solid #ca0000;
 }
@@ -89,6 +108,17 @@ nav li:last-child{
 
 #bannerBox{
 	float: right;
+	position: relative;
+	margin-right: 150px;
+}
+
+#bannerBox form{
+	position: absolute;
+	z-index: 6;
+}
+
+#bannerBox input{
+	margin-left: 18px;
 }
 /* Buttons */
 
@@ -148,9 +178,9 @@ input[type="submit"]{
 	font-size: 2em;
 }
 
-input[type="text"]{
-	width: 300px;
-	height: 40px;
+input[type="text"], input[type="password"]{
+	width: 120px;
+	height: 20px;
 }
 
 textarea{
@@ -158,14 +188,14 @@ textarea{
 	height: 300px;
 }
 
-input[type="text"], textarea{
+input[type="text"], input[type="password"], textarea{
 	box-shadow: inset 2px 2px 4px black;
 	font-family: 'SourceSansProSemiBold';
-	font-size: 2em;
-	border-radius: 10px;
+	font-size: 1em;
+	border-radius: 5px;
 }
 
-input[type="text"]:focus, textarea:focus{
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus{
 	border-color: #ca0000;
 	box-shadow: 0px 0px 4px black;  
 	
@@ -175,6 +205,7 @@ label{
 	font-family: 'SourceSansProSemiBold';
 	font-size: 2em;
 }
+
 
 /* Carousel */
 
@@ -206,10 +237,67 @@ label{
 }
 
 #myCarousel{
-	background: #cacaca;
+	/* background: #cacaca; */
+	margin-top: 20px;
+	padding-top: 20px;
 }
+
 
 .item img{
 	float: left;
 	width: 400px;
+	margin-right: 10px;
 }
+
+/* Sections */
+
+.sections{
+	width: 146px;
+	padding: 10px;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+}
+
+.sections a{
+	color: white; 
+	font-family: 'SourceSansProSemiBold';
+	font-size: 1.2em;
+}
+
+
+.sections:nth-child(1){
+	background:#0005cf;
+}
+
+.sections:nth-child(2){
+	background: #ca0000;
+}
+
+.sections:nth-child(3){
+	background: #09c100;
+}
+
+.sections:nth-child(4){
+	background: #b003dc;
+}
+
+.sections:nth-child(5){
+	background: #c56600;
+}
+
+.secHead{
+	background:  url(../img/sections-tops.png) no-repeat;
+	width: 172px;
+	height: 25px;
+	color: white;
+	position: relative;
+}
+
+.secHead h2{
+	position: absolute;
+	bottom: -20px;
+	left: 20px;
+}
+
+
